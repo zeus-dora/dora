@@ -1,5 +1,5 @@
 {
-  "name": "imxieke/dev-template-php",
+  "name": "dora/dora",
   "description": "PHP Project Template",
   "type": "library",
   "license": "MIT",
@@ -33,7 +33,7 @@
     "test": "phpunit --colors",
     "psalm": "psalm --show-info=true --no-cache",
     "psalm-fix": "psalm --no-cache --alter --issues=MissingReturnType,MissingParamType",
-	"phpstan": "vendor/bin/phpstan analyze src/ --memory-limit 512M --level 9"
+    "phpstan": "vendor/bin/phpstan analyze src/ --memory-limit 512M --level 9"
   },
   "scripts-descriptions": {
     "test": "Run all tests."
